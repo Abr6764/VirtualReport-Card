@@ -1,0 +1,202 @@
+
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+
+*{
+  font-family: "Hanken Grotesk";
+
+}
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+@media screen and (max-width:1440px){
+
+  
+ .container{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    height:430px;
+    border:1px solid rgb(201, 207, 201);
+    border-radius: 40px;
+  
+  }
+  .first{
+     width:320px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 40px;
+    background-color:   hsl(241, 81%, 54%);
+    color:aliceblue;
+  }
+  .second{
+    width:275px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius:0px 40px 40px 0px;
+  
+  } 
+
+  .summary{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding:10px;
+    font-size:20px;
+    font-weight: 700;
+  }
+  
+}
+/*query for mobiles and similar devices
+ of width less than 1440px */
+@media (min-width:365px) and (max-width:1339px){
+   
+  /*container holds both first and second class*/
+  .container{
+    width:375px;
+    height:100%;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border:rgb(231, 222, 222) 1px solid;
+    border-radius:0px;
+  
+  }
+  /*Class first container holds results and score*/
+  .first{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:340px;
+    border-radius: 0px 0px 40px 40px;
+    background-color: hsla(235, 88%, 45%, 0.864);
+    color:aliceblue;
+  }
+  .second{
+    width:320px;
+    height:430px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 0px;
+  }
+  .summary{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding:10px;
+    font-weight: 700;
+    margin:10px 0px;
+  }
+  
+  
+
+  
+}
+.first{
+  background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+.button{
+  width:280px;
+  background-color: black;
+  height: 40px;
+  color: azure;
+  font-size: 22px;
+  font-weight:500;
+  text-align: center;
+  border-radius: 40px;
+  padding:10px 0px 0px 0px;
+  margin:20px 8px 5px 3px;
+}       
+
+
+.card{
+  display:flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding:15px;
+  margin:10px 0px;
+}
+.item{
+  display:flex;
+  justify-content: space-between;
+ 
+  
+}
+.item div{
+  padding-left: 10px;
+  
+}
+h3{
+  font-size:24px;
+  margin:10px;
+}
+p{
+  text-align: center;
+  padding:0px 25px;
+  margin:1px 20px 20px 30px;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  margin:20px;
+  padding:10px;
+}
+.percentage{
+  font-size: 45px;
+  font-weight:700;
+}
+.circle{
+
+  width: 130px;
+  height: 130px;
+  background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+  
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.red{ 
+    color:hsl(0, 100%, 67%);
+    background-color:hsla(0, 100%, 67%,0.1) ;
+}
+.yellow{ 
+    color:hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%,10%);
+}
+.green{
+    color:hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%,10%);
+}
+.blue{ 
+    color:hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%,10%);
+}
+.outof100{
+    color:grey;
+    font-weight:600;
+}
+.outof100 span{
+    color:black;
+}
+/*
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+*/
