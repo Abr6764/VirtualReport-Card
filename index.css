@@ -11,7 +11,7 @@ body{
   justify-content: center;
   align-items:center;
 }
-@media screen and (max-width:1440px){
+@media screen and (min-width:1440px){
 body{
   min-height:100vh;
   display:flex;
