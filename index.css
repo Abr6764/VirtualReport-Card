@@ -151,7 +151,7 @@ p{
    
   /*container holds both first and second class*/
   .container{
-    width:375px;
+    width:300px;
     height:100%;
     display:flex;
     justify-content: flex-start;
