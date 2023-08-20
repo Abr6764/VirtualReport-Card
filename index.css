@@ -191,11 +191,13 @@ p{
   }
   .circle{
 
-    width: 120px;
-    height: 130px;
+    width: 130px;
+    height: 140px;
     
     
-}
+  }
+  h3{
+    margin:0px;
 }
 
 
