@@ -50,7 +50,7 @@ body{
     display:flex;
     flex-direction: row;
     align-self: flex-start;
-    padding:10px 5px;
+    padding:15px 5px;
     font-size:20px;
     font-weight: 700;
   }
@@ -144,7 +144,7 @@ p{
 
 /*query for mobiles and similar devices
  of width less than 665px */
- @media (min-width:350px) and (max-width:665px){
+ @media (min-width:350px) and (max-width:400px){
    
    
   /*container holds both first and second class*/
