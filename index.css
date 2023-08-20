@@ -33,6 +33,8 @@ body{
     align-items:center;
     border-radius: 40px;
     background-color:hsl(241, 81%, 54%);
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
     color:aliceblue;
   }
   .second{
@@ -54,12 +56,6 @@ body{
     font-weight: 700;
   }
   
-
-
-.first{
-  background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-}
-
 
 .button{
   width:280px;
@@ -151,6 +147,7 @@ p{
  of width less than 665px */
  @media (min-width:350px) and (max-width:665px){
    
+   
   /*container holds both first and second class*/
   .container{
     width:350px;
@@ -196,8 +193,22 @@ p{
     
     
   }
-  h3{
-    margin:0px;
-}
+   .card{
+    padding:12px;
+    margin:5px 0px;
+  }
+   .button{
+    width:280px;
+    height: 40px;
+    padding:10px 0px 0px 0px;
+    margin:15px 8px 5px 6px;
+   }
+
+   
+ }
+
+   
+
+ 
 
 
